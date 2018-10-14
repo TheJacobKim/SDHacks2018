@@ -11,6 +11,12 @@ The app looks like this.
 
 <img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/Homepage.jpg" height="651" width="375">
 
+Sensor works with infrared sensor
+
+<img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/trashyDemo0.JPG" height="306" width="408">
+<img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/trashyDemo1.JPG" height="306" width="408">
+
+
 ## Built with
 - React Native
 - Expo
