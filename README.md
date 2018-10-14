@@ -7,10 +7,11 @@ Smart Trash Bin lets you and your roommates have a civil way of handling trash d
 
 # Demo
 The app looks like this.
+
+
 <img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/Homepage.jpg" height="651" width="375">
 
 ## Built with
 - React Native
 - Expo
 - Microduino (Distance Sensor)
-- 
