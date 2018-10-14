@@ -20,6 +20,13 @@ Sensor works with infrared sensor
 <img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/trashyDemo0.JPG" height="306" width="408">
 <img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/trashyDemo1.JPG" height="306" width="408">
 
+
+### GIF of our App working!
+![Alt Text](https://media.giphy.com/media/6IhxgzEtOHTZBhzEKV/giphy.gif) <br/>
+
+![Alt Text](https://media.giphy.com/media/9GIEak3WnkdyZj3kwU/giphy.gif)
+
+
 ## Challenges we ran into
 Sending sensor output to our app via Bluetooth communication was hard.
 
