@@ -35,7 +35,7 @@ void setup() {
 void loop() {
   // read the input on analog pin 0:
   int sensorValue = analogRead(distanceSensor);
- // Serial.println(sensorValue);
+  // Serial.println(sensorValue);
 
   // Record current time
   startTime = millis();
@@ -44,7 +44,9 @@ void loop() {
   while (sensorValue < fullCan) {
     sensorValue = analogRead(distanceSensor);
     if (millis() - startTime > elapsedTime /* && my_Serial.available() > 0*/) {
-      my_Serial.println("Trash full");  //Send data to the other end of Bluetooth communication.
+      my_Serial.println(1);  //Send data to the other end of Bluetooth communication.
+    } else {
+      my_Serial.println(0);  //Send data to the other end of Bluetooth communication.
     }
   }
 
