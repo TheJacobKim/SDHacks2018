@@ -22,9 +22,11 @@ Sensor works with infrared sensor
 
 
 ### GIF of our App working!
-![Alt Text](https://media.giphy.com/media/6IhxgzEtOHTZBhzEKV/giphy.gif) <br/>
+![App Demo 1](https://media.giphy.com/media/6IhxgzEtOHTZBhzEKV/giphy.gif)
 
-![Alt Text](https://media.giphy.com/media/9GIEak3WnkdyZj3kwU/giphy.gif)
+[![App Demo 2](http://img.youtube.com/vi/fF66xtcA2Ps/0.jpg)](http://www.youtube.com/watch?v=fF66xtcA2Ps)
+
+
 
 
 ## Challenges we ran into
