@@ -3,7 +3,7 @@
 ## Synopsis
 Smart Trash Bin lets you and your roommates have a civil way of handling trash dispute
 
-<img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/Smart%20Trash%20Bin.png" height="270" width="480">
+<img src="https://github.com/TheJacobKim/SDHacks2018/blob/master/Images/Smart%20Trash%20Bin.png" height="405" width="720">
 
 ## What it does
 Smart Trash Bin lets you and your roommates have a civil way of handling trash disposal. 
