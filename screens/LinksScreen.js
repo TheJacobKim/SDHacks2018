@@ -1,27 +1,45 @@
-import React from 'react';
-import { ScrollView, StyleSheet } from 'react-native';
-import { ExpoLinksView } from '@expo/samples';
+import React, { Component } from 'react';
+import { AppRegistry, Text, TextInput, View, StyleSheet } from 'react-native';
 
-export default class LinksScreen extends React.Component {
-  static navigationOptions = {
-    title: 'Links',
-  };
+export default class TextEditor extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {text: ''};
+  }
 
   render() {
     return (
-      <ScrollView style={styles.container}>
-        {/* Go ahead and delete ExpoLinksView and replace it with your
-           * content, we just wanted to provide you with some helpful links */}
-        <ExpoLinksView />
-      </ScrollView>
+      <View style={{padding: 10}}>
+        <Text style = {styles.title}>
+          Trash Members
+        </Text>
+        <TextInput
+          style={{height: 50}}
+          placeholder="Enter Trash Member:"
+          onChangeText={(text) => this.setState({text})}
+        />
+        <TextInput
+          style={{height: 50}}
+          placeholder="Enter Trash Member:"
+          onChangeText={(text) => this.setState({text})}
+        />
+        <TextInput
+          style={{height: 50}}
+          placeholder="Enter Trash Member:"
+          onChangeText={(text) => this.setState({text})}
+        />
+        
+        
+      </View>
     );
   }
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    paddingTop: 15,
-    backgroundColor: '#fff',
+  title:{
+    textAlign: 'center',
+    fontSize: 30,
+    lineHeight: 30,
+    //fontFamily: 'futura',
   },
 });
