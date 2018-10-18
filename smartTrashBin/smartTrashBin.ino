@@ -42,11 +42,9 @@ void loop() {
 
   // If the trashcan is full, record that time
   while (sensorValue < fullCan) {
-    sensorValue = analogRead(distanceSensor);
+    sensorValue = analogRead(distanceSensor);2
     if (millis() - startTime > elapsedTime /* && my_Serial.available() > 0*/) {
-      my_Serial.println(1);  //Send data to the other end of Bluetooth communication.
-    } else {
-      my_Serial.println(0);  //Send data to the other end of Bluetooth communication.
+      my_Serial.println('F');  //Send data to the other end of Bluetooth communication.
     }
   }
 
